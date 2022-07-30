@@ -52,4 +52,43 @@ nav button.register:hover {
 /* Popular Courses Styles */
 .course-card .price {
   color: #289bde;
+} 
+* Explore Styles */
+.explore-content {
+  background-color: #f4fafd;
+}
+/* Register Styles */
+.register-wrapper {
+  background-color: #289bde;
+}
+.register-wrapper button.btn {
+  background-color: #fff;
+  color: #289bde;
+  transition: 0.5s ease-in-out;
+}
+.register-wrapper button.btn:hover {
+  transform: scale(1.2);
+}
+button.btn.submit-form,
+button.btn.save-changes {
+  background-color: #289bde;
+  color: #fff;
+  border: 1px solid #289bde;
+}
+button.btn.close {
+  background-color: #4a4a4a;
+  color: #fff;
+  border: 1px solid #4a4a4a;
+}
+
+/* Feedback Styles */
+/* Arrows */
+svg.arrow {
+  width: 35px;
+  background: #e5f6ff;
+  color: #289bde;
+  border-radius: 50%;
+  position: absolute;
+  top: 48%;
+  transition: 0.5s ease-in-out;
 }
