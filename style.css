@@ -21,3 +21,35 @@ body {
   color: #289bde;
   border: 1px solid #289bde;
 }
+.card-title,
+button.accordion-button {
+  color: #4a4a4a !important;
+}
+
+/* Header styles */
+nav button.register {
+  color: #289bde;
+  border: 1px solid #289bde;
+  transition: 0.5s ease-in-out;
+}
+nav button.register:hover {
+  background-color: #289bde;
+  color: #fff;
+  border: 1px solid #289bde;
+  transform: scale(1.2);
+}
+/* Slider Styles*/
+.carousel-caption {
+  bottom: 100px !important;
+  padding: 70px;
+}
+.carousel-caption h1 {
+  font-size: 65px;
+}
+.carousel-caption p {
+  color: #f4f4f4;
+}
+/* Popular Courses Styles */
+.course-card .price {
+  color: #289bde;
+}
