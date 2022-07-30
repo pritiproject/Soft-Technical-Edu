@@ -92,3 +92,39 @@ svg.arrow {
   top: 48%;
   transition: 0.5s ease-in-out;
 }
+svg.arrow:hover {
+  background-color: #289bde;
+  color: #fff;
+}
+svg.left-arrow {
+  left: -10px;
+}
+svg.right-arrow {
+  right: -10px;
+}
+i.feedback-icon {
+  color: #f59e0b;
+}
+
+/* Footer Section */
+.social-icon span i {
+  transition: 0.5s ease-in-out;
+}
+.social-icon span i:hover {
+  transform: rotate(360deg);
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 576px) {
+  .carousel-caption{
+    padding: 15%;
+    bottom: 0px !important;
+    left: 0% !important;
+    right: 0% !important;
+  }
+  .carousel-caption h1 {
+    font-size: 16px !important;
+  }
+  .carousel-caption p {
+    font-size: 10px !important;
+  }
