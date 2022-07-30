@@ -1,0 +1,11 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Common Styles or Utilities  */
+.btn.edu-btn {
+  font-size: 20px;
+  background-color: #289bde;
+  color: #fff;
+  border: 1px solid #289bde;
+  transition: 0.5s ease-in-out;
+}
