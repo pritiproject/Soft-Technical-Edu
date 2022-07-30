@@ -128,3 +128,30 @@ i.feedback-icon {
   .carousel-caption p {
     font-size: 10px !important;
   }
+  button.edu-btn {
+    font-size: 10px !important;
+  }
+  
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .carousel-caption{
+    padding: 0% !important;
+    bottom: 20px !important;
+  }
+  .carousel-caption h1 {
+    font-size: 28px !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  button.register {
+    margin-left: 300px;
+  }
+  .carousel-caption{
+    padding: 0% !important;
+    bottom: 20% !important;
+  }
+  .carousel-caption h1 {
+    font-size: 28px !important;
+  }
